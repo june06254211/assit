@@ -1,0 +1,32 @@
+page{
+  background: #f7f6f6;
+  height: 100%; 
+}
+.tip{
+  width: 180rpx;
+  font-size: 30rpx;
+  color:  #9e9d9d;
+}
+.event{
+  width: 600rpx;
+  position: absolute;
+  margin-top: 100rpx;
+  text-align: center;
+  justify-content: center;
+}
+.bgCanvas{
+  height:580rpx;
+  /* padding-top: 100rpx; */
+}
+.check{
+  /* width: 200rpx; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+.check image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}

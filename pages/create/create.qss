@@ -1,0 +1,192 @@
+/* pages/target/target.wxss */
+page{
+  background: #e7e7e7;
+  height: 100%;  
+
+}
+.whole{
+  margin-top: 7%;
+}
+
+/* .whole{
+  background-color:#;
+  height: 1600rpx;
+} */
+.top{
+  background: #232426;
+  color: #fff;
+  height: 70rpx;
+  position: relative;
+  border-radius: 22px;
+  display: inline-block;
+  margin:20rpx;
+}
+.top image{
+  width:50rpx;
+  height:50rpx;
+  border:1px solid #fff;
+  border-radius:20px;
+  margin:10rpx;
+}
+.img{
+  display: inline-block;
+}
+.txt{
+  color: #fff;
+  display: inline;
+  position: relative;
+  bottom: 29rpx;
+  font-size: 13px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.tpname{
+  margin-left: 20rpx;
+  font-size: 18px;
+}
+.date::after{
+  border: 0;
+
+}
+.date{
+  width: 70rpx;
+  padding: 0;
+  height: 110rpx;
+  font-size: 10px;
+  margin-top: 5rpx;
+  line-height: 100rpx; 
+  margin-right: 19rpx; 
+
+}
+.settime{
+ width: 70rpx;
+  padding: 0;
+  height: 110rpx;
+  font-size: 14px;
+  margin-top: 5rpx;
+  line-height: 100rpx; 
+  margin-right: 19rpx; 
+  
+}
+.settime::after{
+  border: 0;
+}
+
+.selects{
+  display: flex;
+  width: 450rpx;
+  margin-left: -10rpx;
+  margin-top: 10rpx;
+}
+.selects>.select{
+  float: left;
+  width: 195rpx;
+}
+.btn{
+  padding: 0
+}
+.selects>.select>.btn::after{
+  border: none;
+}
+.button_container{
+  display: flex;
+  justify-content: space-around
+}
+/* 按钮未选中 */
+.normal_button{
+  background: #eeeded;
+  font-size:25rpx;
+  height: 100rpx;
+  width: 70rpx;
+  padding: 0;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+}
+/* 按钮选中 */
+.checked_button{
+  background: #febb60;
+  color: white ;
+  font-size:25rpx;
+  height: 100rpx;
+  width: 70rpx;
+  padding: 0;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+
+}
+.checked_button::after{
+  border: none
+}
+.normal_button::after{
+  border: none;
+}
+.fixed image{
+  height: 40rpx;
+  width: 40rpx;
+}
+.just{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add{
+  justify-content: left;
+  width: 100%;
+}
+.right{
+  height:120rpx;
+  width: 60%;
+  margin-left: 8%;
+  /* background: #FFC45A; */
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+.more{
+  box-shadow:0px 0px 20px #D6D6D6;
+  height:50px;width:50px;
+  border-radius: 25px;
+  background: #fff;
+  margin-left:10%;
+}
+.r1{
+  background:#fff;
+width:20%;
+padding:3px;
+border-radius:13px;
+margin-left:17px;
+margin-right: 17px;
+
+}
+.r2{
+  margin-left: 100px;
+  position: absolute;
+  right: 30rpx;
+}
+.fixed{
+  position: fixed;
+  width:100%;
+  bottom: 20rpx;
+}
+.card-index--i-card-header-content{
+  font-size: 22px !important;
+}
+.i-card{
+  border-radius: 10px;
+}
+.card-index--i-card{
+  border-radius: 18px;
+}
+.zname{
+  width:100%;height:50px;display:flex;align-items:center;
+}
+.zname input{
+  display:inline;
+width:60%;
+position:absolute;
+left:80px;
+
+}

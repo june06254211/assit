@@ -1,0 +1,50 @@
+/* pages/star/star.wxss */
+page{
+  background-color: #f3f3f3;
+}
+.index--i-btn-default{
+  width:88px;
+  border-radius: 5px;
+  background: #1DBAA5;
+}
+.settarget{
+  width: 500rpx;
+  height: 350rpx;
+  background-color: white;
+  margin:0 auto;
+  margin-left: 140rpx;
+  margin-top: 250rpx;
+  border-radius: 400rpx;
+  padding-top: 150rpx;
+}
+.target{
+  margin-left: 100rpx;
+  margin-top:20rpx
+}
+.time{
+  margin-left: 20rpx;
+  width: 400rpx;
+}
+.submit{
+  padding-top: 100rpx;
+  width: 176rpx;
+  margin: 0 auto;
+}
+.active{
+color: black;
+transform: scale(1.48);
+transition: all .2s ease-in 0s;
+z-index: 20;
+
+
+}
+.swiper-block {
+  width: 430rpx;
+
+}
+.swiper-item{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+overflow: unset;
+}

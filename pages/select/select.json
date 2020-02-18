@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "选座",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "usingComponents": {
+      "i-row": "../../dist/row/index",
+      "i-col": "../../dist/col/index",
+      "i-button": "../../dist/button/index"
+  }
+}

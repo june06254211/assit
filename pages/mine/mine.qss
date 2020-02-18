@@ -1,0 +1,71 @@
+page{
+  
+  
+}
+
+.snick{
+  display:block;
+  font-size:20px;
+  margin-top: 12rpx;
+}
+.topbar{
+  margin-top: 20rpx;
+  /* background: url('https://shzujune.com/test.jpg') no-repeat; */
+   /* background: linear-gradient(#fff,#00B26A); */
+  background-size:100% 130px;
+  border-bottom-left-radius:13px;
+  border-bottom-right-radius:13px;
+}
+.row-index--i-row{
+  /* height: 130px !important; */
+}
+/* .top{
+  height: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.middle{
+  height: 180rpx;
+  /* width: 80%; */
+  margin: 0 auto;
+  border-bottom: 1px solid #D3D3D3;
+  border-radius: 15px;
+  position: relative;
+  top: -50rpx;
+  /* box-shadow: 0px 0px 10px #D3D3D3; */
+
+  background:#fff;
+}
+.lf{
+  display: inline-block;
+  width:25%;
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 14px;
+}
+.rg{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.middle image{
+  height: 55rpx;
+  width:55rpx;
+  display: block;
+  margin: 0 auto;
+}
+.top image{
+  width:60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.txt{
+  font-size:14px;
+margin-left:10px;
+position:relative;
+top:-10px;
+
+}

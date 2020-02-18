@@ -1,0 +1,30 @@
+/* view{
+  display: flex;
+} */
+.ans{
+  margin-top: 8rpx;
+}
+.qus{
+  display: flex;
+}
+.QA image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.QA{
+  /* margin-left: 20rpx;
+  margin-right: 20rpx; */
+  padding: 40rpx;
+}
+.question{
+  font-weight: bold;
+}
+.answer{
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: -50rpx;
+  margin-left: 50rpx;
+}

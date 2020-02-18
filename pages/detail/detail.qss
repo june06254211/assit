@@ -1,0 +1,149 @@
+/* pages/detail/detail.wxss */
+page{
+  height: 100%;
+  background: #F7F7F7;
+
+}
+.bd{
+  box-shadow: 0px 0px 40rpx #D6D6D6;
+  /* //height: 80%; */
+  margin:40rpx;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 17px;
+  padding-top: 4rpx;
+  margin-bottom: 180rpx;
+}
+.bd image{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 20px;
+  margin: 0 10rpx;
+}
+.mg{
+  margin:20rpx;
+}
+.pl{
+  display: flex;
+  align-items: center;
+}
+.tips{
+  background: #F7F7F7;
+  border-radius: 10px;
+  padding: 6rpx;
+}
+.tip{
+  font-size: 14px;
+}
+.fs{
+  font-weight: bold;
+}
+.fixed{
+  z-index: 9999;
+  /* opacity: 0.9; */
+  height: 180rpx;
+  /* background: linear-gradient(#fff,#F6F6F6); */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.fixed image{
+  height: 40rpx;
+  width: 40rpx;
+}
+.just{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add{
+  justify-content: left;
+  width: 100%;
+}
+.right{
+  height:120rpx;
+  width: 60%;
+  margin-left: 8%;
+  /* background: #FFC45A; */
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 60rpx;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+.more{
+  box-shadow:0px 0px 20px #D6D6D6;
+
+  height:50px;width:50px;
+  border-radius: 25px;
+  background: #fff;
+  margin-left:10%;
+}
+.r1{
+  background:#fff;
+width:20%;
+padding:3px;
+border-radius:13px;
+margin-left:17px;
+margin-right: 17px;
+
+}
+.r2{
+  margin-left: 100px;
+  position: absolute;
+  right: 30rpx;
+}
+.swipeout-index--i-swipeout-item{
+  height: 160rpx;
+  border: 0;
+  border-radius: 25px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+}
+.overlay .tipss{
+  position: absolute;
+  /* top: 30rpx; */
+  right: 35rpx;
+  /* width: 589rpx;
+  height: 164rpx; */
+  z-index: 2;
+}
+
+.overlay.center{
+  display:flex;
+  justify-content: center;
+}
+.t{ 
+  width:100%;
+  display:block;
+  bottom:400rpx;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+.t image{
+  width:458rpx;
+  height:225rpx;
+}
+.lv{
+  font-weight: normal;
+  margin-left: 10rpx;
+  font-size: 12px;
+  background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+  color:#fff;
+  padding:0px 4px;
+  border-radius:4px;
+  position: relative;
+  left:-34rpx;
+}

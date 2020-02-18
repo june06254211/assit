@@ -1,0 +1,30 @@
+/* pages/star/star.wxss */
+.whole{
+  height: 1600rpx;
+  background-color: #f3f3f3;
+  position: absolute;
+  width: 100%;
+  
+}
+.settarget{
+  width: 500rpx;
+  height: 350rpx;
+  background-color: white;
+  margin:0 auto;
+  margin-left: 140rpx;
+  margin-top: 250rpx;
+  border-radius: 400rpx;
+  padding-top: 150rpx;
+}
+.target{
+  margin-left: 100rpx;
+}
+.time{
+  margin-left: 20rpx;
+  width: 400rpx;
+}
+.submit{
+  padding-top: 100rpx;
+  width: 300rpx;
+  margin: 0 auto;
+}

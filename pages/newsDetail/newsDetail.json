@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "新闻详情",
+  "backgroundColorTop": "#fff",
+  "backgroundColorBottom": "#fff",
+  "onReachBottomDistance": 0,
+  "usingComponents": {
+   
+  }
+}

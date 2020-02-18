@@ -1,0 +1,110 @@
+/* pages/level/level.wxss */
+page{
+  height: 100%;
+  background: #F7F7F7;
+  
+}
+.top{
+  height: 130rpx;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  margin-top: 2px;
+  
+}
+.top image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 60px;
+  margin-left: 40rpx;
+}
+.lv{
+  font-weight: normal;
+  margin-left: 20rpx;
+  font-size: 12px;
+  background:#1DBAA5;
+  color:#fff;
+  padding:0px 4px;
+  border-radius:4px;
+}
+.title{
+  font-size: 15px;
+  margin-left: 40rpx;
+  color: gray;
+  padding-top: 20rpx;
+}
+.middle{
+  background: #fff;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.m-con{
+  width:100%;
+  margin-top: 20rpx;
+}
+.m{
+  display: inline-block;
+  width:33%;
+  text-align: center;
+  font-size: 13px;
+  
+}
+.whole{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: white;
+  padding: 10rpx;
+  padding-top: 20rpx;
+}
+.title{
+  color: gray;
+}
+.hr{
+  margin-top: 20rpx;
+  height: 7rpx;
+  border-radius: 5rpx;
+  background: -webkit-linear-gradient( right,#a8e8f3, #c3f788,#f3f168,#f8b066);
+  width: 100%;
+}
+.rule{
+  margin-top: 20rpx;
+  width: 100%;
+  display: flex;
+  margin-left: 40rpx;
+  /* flex-direction: column; */
+  /* color: gray; */
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+.event{
+  width: 350rpx;
+  /* border: 1px solid lavender; */
+  /* display: flex; */
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 35rpx;
+  height: 40rpx
+}
+.add{
+  width: 330rpx;
+  color: grey;
+  font-size:30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+
+}
+.line{
+  background: lavender;
+  height:2rpx;
+  width:100%;
+  margin-top:20rpx;
+  margin-bottom: 20rpx;
+}
+.rest{
+  font-size: 30rpx;
+  color: gray;
+  margin-top: -80rpx;
+}

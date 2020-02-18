@@ -1,0 +1,52 @@
+/* pages/fail/fail.wxss */
+page{
+  background: #f7f6f6;
+}
+.fail{
+  width: 500rpx;
+  height: 500rpx;
+  background: white;
+  border-radius: 250rpx;
+  margin: 0 auto;
+  margin-bottom: 50rpx;
+  margin-top: 200rpx;
+}
+.return {
+  display: flex;
+  height: 90rpx;
+  flex-wrap: no-wrap;
+  justify-items: center;
+  justify-content: center;
+}
+.back{
+  width: 300rpx;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  background: white;
+
+  
+
+}
+.back::after{
+  border: none;
+}
+.restar{
+  width: 300rpx;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  background: -webkit-linear-gradient( left,#fbcf97, #fac865,#ffb85e,#f8b066);
+
+
+}
+.restar::after{
+  border: none;
+}
+.failtext{
+  text-align: center;
+  width: 600rpx;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}

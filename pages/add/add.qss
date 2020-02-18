@@ -1,0 +1,91 @@
+/* pages/target/target.wxss */
+page{
+  background: #e7e7e7;
+  height: 100%;  
+
+}
+
+/* .whole{
+  background-color:#;
+  height: 1600rpx;
+} */
+.tpname{
+  margin-left: 20rpx;
+  font-size: 18px;
+}
+.date::after{
+  border: 0;
+
+}
+.date{
+  width: 70rpx;
+  padding: 0;
+  height: 110rpx;
+  font-size: 10px;
+  margin-top: 5rpx;
+  line-height: 100rpx; 
+  margin-right: 19rpx; 
+
+}
+.settime{
+ width: 70rpx;
+  padding: 0;
+  height: 110rpx;
+  font-size: 14px;
+  margin-top: 5rpx;
+  line-height: 100rpx; 
+  margin-right: 19rpx; 
+  
+}
+.settime::after{
+  border: 0;
+}
+
+.selects{
+  display: flex;
+  width: 450rpx;
+  margin-left: -10rpx;
+  margin-top: 10rpx;
+}
+.selects>.select{
+  float: left;
+  width: 195rpx;
+}
+.btn{
+  padding: 0
+}
+.selects>.select>.btn::after{
+  border: none;
+}
+.button_container{
+  display: flex;
+  justify-content: space-around
+}
+/* 按钮未选中 */
+.normal_button{
+  background: #eeeded;
+  font-size:25rpx;
+  height: 100rpx;
+  width: 70rpx;
+  padding: 0;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+}
+/* 按钮选中 */
+.checked_button{
+  background: #febb60;
+  color: white ;
+  font-size:25rpx;
+  height: 100rpx;
+  width: 70rpx;
+  padding: 0;
+  line-height: 100rpx;
+  margin-right: 20rpx;
+
+}
+.checked_button::after{
+  border: none
+}
+.normal_button::after{
+  border: none;
+}
